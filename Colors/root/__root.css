@@ -1,0 +1,13 @@
+p {
+  font-size: 22px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  text-transform: capitalize;
+}

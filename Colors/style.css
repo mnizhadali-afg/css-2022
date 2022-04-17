@@ -1,0 +1,21 @@
+@import url("./root/__root.css");
+
+body {
+  background-color: hsla(271, 76%, 35%, 0.486);
+}
+
+h1 {
+  color: hsl(48, 100%, 93%);
+  text-shadow: 1px 1px 3px rgba(240, 28, 13, 0.952);
+}
+
+p {
+  color: hsl(40, 100%, 97%);
+}
+
+.box {
+  box-shadow: 3px 3px 10px green;
+  border: 15px solid;
+  border-top-color: yellow;
+  border-bottom-color: yellow;
+}

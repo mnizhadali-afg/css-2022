@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.card-footer {
+  margin: 1rem 0;
+}
+
+.card-link {
+  background-color: rgb(95, 158, 160);
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
