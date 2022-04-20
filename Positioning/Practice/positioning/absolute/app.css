@@ -1,0 +1,29 @@
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 10px 0;
+}
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px 0;
+}
+span {
+  background: red;
+  border: 1px solid black;
+}
+img {
+  margin-top: 10px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.absolute {
+  position: absolute;
+  background: yellow;
+  top: 30px;
+  left: 30px;
+}
