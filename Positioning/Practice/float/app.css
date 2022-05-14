@@ -1,5 +1,5 @@
 body {
-  margin: 1em;
+  margin: 16px;
 }
 .container {
   width: 980px;
@@ -12,10 +12,10 @@ div {
 .main-content {
   background-color: lightgrey;
   width: 60%;
-  float: left;
+  float: right;
 }
 .sidebar {
   background-color: lightgrey;
   width: 30%;
-  float: right;
+  float: left;
 }
