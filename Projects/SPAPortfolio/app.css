@@ -1,0 +1,102 @@
+/*************************************************** 
+                    General Styles
+****************************************************/
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  position: relative;
+}
+a,
+p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+/* ------------- center vertically -------------- */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/***************************************************
+                    Navbar Styles
+****************************************************/
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 12vh;
+  background-color: transparent;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-links {
+  display: flex;
+}
+.navbar-links {
+  margin: 0;
+}
+.navbar-links li {
+  list-style-type: none;
+}
+.navbar-item {
+  margin-right: 3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+.navbar-item:active {
+  text-decoration: underline;
+}
+/*************************************************** 
+                    Sections Styles
+****************************************************/
+.spa {
+  min-height: 100vh;
+  padding: 2em 0;
+}
+/* -------------------- section#hero -------------------- */
+section#hero {
+  background-color: lightsalmon;
+}
+.heroText {
+  font-weight: 800;
+  font-size: 10rem;
+}
+
+/* -------------------- section#about -------------------- */
+section#about {
+}
+
+/* -------------------- section#services -------------------- */
+section#services {
+  background-color: lightseagreen;
+}
+
+/* -------------------- section#contact -------------------- */
+section#contact {
+}
+
+/*************************************************** 
+                    Footer Styles
+****************************************************/
+footer {
+  min-height: 50vh;
+  background-color: lightslategrey;
+}
+/* back-to-top button */
